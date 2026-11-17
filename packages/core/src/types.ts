@@ -19,3 +19,11 @@ export type Allergen = (typeof ALLERGENS)[number];
 export type PetProfile = z.infer<typeof petProfileSchema>;
 export type Food = z.infer<typeof foodSchema>;
 export type FoodSeed = z.infer<typeof foodSeedSchema>;
+
+export type ExclusionReason =
+  { code: 'SPECIES_MISMATCH' } | { code: 'CONTAINS_ALLERGEN'; allergens: Allergen[] };
+
+export interface ExcludedFood {
+  food: Food;
+  excludedBecause: ExclusionReason;
+}
