@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sample-adult-salmon",
+    "brand": "Sample Brand A",
+    "name": "Adult Salmon & Rice",
+    "species": "dog",
+    "lifeStage": "adult",
+    "breedSizes": ["medium", "large"],
+    "mainProtein": "fish",
+    "ingredients": ["salmon", "salmon meal", "brown rice", "barley", "sunflower oil", "beet pulp"],
+    "grainFree": false,
+    "imageUrl": null,
+    "buyUrl": "https://www.zap.co.il/search.aspx?keyword=Sample+Brand+A+Adult+Salmon"
+  },
+  {
+    "id": "sample-adult-chicken",
+    "brand": "Sample Brand B",
+    "name": "Adult Chicken & Corn",
+    "species": "dog",
+    "lifeStage": "adult",
+    "breedSizes": ["medium", "large"],
+    "mainProtein": "chicken",
+    "ingredients": ["chicken meal", "maize", "wheat", "chicken fat", "dried egg", "beet pulp"],
+    "grainFree": false,
+    "imageUrl": null,
+    "buyUrl": "https://www.zap.co.il/search.aspx?keyword=Sample+Brand+B+Adult+Chicken"
+  },
+  {
+    "id": "sample-puppy-lamb",
+    "brand": "Sample Brand C",
+    "name": "Puppy Small Breed Lamb",
+    "species": "dog",
+    "lifeStage": "puppy",
+    "breedSizes": ["small"],
+    "mainProtein": "lamb",
+    "ingredients": ["lamb", "lamb meal", "rice", "oats", "fish oil", "dried whey"],
+    "grainFree": false,
+    "imageUrl": null,
+    "buyUrl": "https://www.zap.co.il/search.aspx?keyword=Sample+Brand+C+Puppy+Lamb"
+  },
+  {
+    "id": "sample-senior-fish-grainfree",
+    "brand": "Sample Brand D",
+    "name": "Senior Grain-Free Whitefish",
+    "species": "dog",
+    "lifeStage": "senior",
+    "breedSizes": ["small", "medium"],
+    "mainProtein": "fish",
+    "ingredients": [
+      "whitefish",
+      "herring meal",
+      "sweet potato",
+      "peas",
+      "linseed",
+      "tomato pomace"
+    ],
+    "grainFree": true,
+    "imageUrl": null,
+    "buyUrl": "https://www.zap.co.il/search.aspx?keyword=Sample+Brand+D+Senior+Whitefish"
+  },
+  {
+    "id": "sample-all-stages-lamb",
+    "brand": "Sample Brand E",
+    "name": "All Life Stages Lamb & Rice",
+    "species": "dog",
+    "lifeStage": "all",
+    "breedSizes": ["small", "medium", "large"],
+    "mainProtein": "lamb",
+    "ingredients": ["lamb meal", "rice", "oats", "animal fat", "soybean oil", "eggplant powder"],
+    "grainFree": false,
+    "imageUrl": null,
+    "buyUrl": "https://www.zap.co.il/search.aspx?keyword=Sample+Brand+E+Lamb+Rice"
+  }
+]
