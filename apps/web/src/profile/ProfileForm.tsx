@@ -78,7 +78,7 @@ export function ProfileForm({ initial, onSubmit }: ProfileFormProps) {
       noValidate
       className="space-y-8 rounded-4xl bg-white p-6 shadow-card md:p-10"
     >
-      <h2 className="text-2xl font-black text-gray-900">{he.form.title}</h2>
+      <h3 className="text-2xl font-black text-gray-900">{he.form.title}</h3>
 
       <div className="grid gap-6 md:grid-cols-2">
         <div>
