@@ -8,10 +8,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
     "@petmatch/core": "*",
+    "drizzle-orm": "^0.45.4",
     "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0"
+    "@types/node": "^22.0.0",
+    "drizzle-kit": "^0.31.11"
   }
 }
