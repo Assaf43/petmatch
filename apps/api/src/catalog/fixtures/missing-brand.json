@@ -1,0 +1,14 @@
+[
+  {
+    "id": "bad-row",
+    "name": "No Brand Food",
+    "species": "dog",
+    "lifeStage": "adult",
+    "breedSizes": ["large"],
+    "mainProtein": "fish",
+    "ingredients": ["salmon", "rice"],
+    "grainFree": false,
+    "imageUrl": null,
+    "buyUrl": "https://example.com/bad-row"
+  }
+]
