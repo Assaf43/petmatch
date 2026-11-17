@@ -49,3 +49,14 @@ export interface Weights {
   preferredProtein: number;
   grainFree: number;
 }
+
+export interface Match {
+  food: Food;
+  score: number;
+  reasons: Reason[];
+}
+
+export interface RecommendationResult {
+  matches: Match[];
+  excluded: ExcludedFood[];
+}
